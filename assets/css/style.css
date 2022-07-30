@@ -37,7 +37,7 @@ header nav ul {
     list-style-type: none;
 }
 
-/* inserted "psueo content" to avoid bug where VoiceOver screen reader will not announce list items as a list if the list style type is "none" per "Accessibility concerns" section https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type  */
+/* inserted "psuedo content" to avoid bug where VoiceOver screen reader will not announce list items as a list if the list style type is "none" per "Accessibility concerns" section https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type  */
 
 header nav ul li::before {
     content: "\200B";
